@@ -1,0 +1,44 @@
+/* div{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: brown;
+}
+li{
+    list-style-type: none;
+    display: inline;
+} */
+
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+} 
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+}
+
+/* One div ito another div in the center by using flex properties */
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 0, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(34, 0, 255);
+    /* align-self: flex-start;  highest priority*/
+}

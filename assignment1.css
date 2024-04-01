@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+h1,h3,h5{
+    font-family: Georgia;
+}
+.content{
+    color: white;
+    background-color: cornflowerblue;
+}
+button{
+    color: azure;
+    background-color: purple;
+} 
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(odd)
+{
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+
+/* input[type="checkbox"]:checked +label{
+    color: rgba(100, 0, 0, 0.985);
+    background-color: black;
+} */
+#yes:checked +label{
+    color: rgba(100, 0, 0, 0.985);
+    background-color: black;
+}
+h5::selection
+{
+    color: chocolate;
+}

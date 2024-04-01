@@ -1,0 +1,41 @@
+h1
+{
+    text-align: center;
+    color: brown;   
+    font-weight: bold; 
+    /* text-decoration: underline; */
+    text-decoration: wavy red underline;
+    letter-spacing: 5px;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+h2{
+    text-align: start;
+    font-weight: 800;
+    text-decoration: double blue overline;
+    font-size: 50px;
+    font-family: Impact;
+}
+h3{
+    text-decoration: line-through;
+
+}
+p{
+    
+    text-align: right;
+    text-align: justify;
+    font-weight: 900;
+    line-height: 2.5;
+    font-size: 30px;
+}
+h4 {
+    text-decoration:dotted underline;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    
+}

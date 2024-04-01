@@ -1,0 +1,11 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid greenyellow;
+    margin: 5px;
+    display: inline-block;
+}
+#none{
+    display: none;
+}

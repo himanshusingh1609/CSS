@@ -1,0 +1,36 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid #d9f009;
+    border-top: 20px solid #4ECDEC;    
+
+    position: absolute;
+    top: 200px;
+    left: 600px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: spinAnimate 2s steps(6) 0s infinite ;
+
+    font-weight: bold;
+
+}
+
+@keyframes spinAnimate {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }    
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

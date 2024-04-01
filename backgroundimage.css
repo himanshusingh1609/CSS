@@ -1,0 +1,27 @@
+div{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aqua;
+}
+body{
+    background-image: url("puppy.jpg");
+    background-size: cover;
+}
+#box1{
+    background-image: url("alone.jpg");
+    background-size: cover;
+}
+#box2{
+    background-image: url("couple.jpg");
+    background-size: contain;
+}
+#box3{
+    background-image: url("attitude.jpg");
+    background-size: auto;
+}
+#box4{
+    background-image: url("attitude.jpg");
+    background-size: cover;
+}
